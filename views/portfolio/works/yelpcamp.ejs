@@ -1,0 +1,35 @@
+<% layout("layouts/boilerplate") %>
+<div class="container mt-5">
+  <div class="card shadow-sm" style="max-width: 500px; margin: auto;">
+    <!-- サムネイル画像 -->
+    <img src="images/yelpcamp_サムネイル.png" class="card-img-top" alt="YelpCamp サムネイル">
+
+    <div class="card-body">
+      <h3 class="card-title">YelpCampクローン（キャンプ場レビューWebアプリ）</h3>
+      <h6 class="card-subtitle mb-2 text-muted">Node.js / Express / MongoDB / Passport.js</h6>
+
+      <p class="card-text mt-3">
+        Node.jsとExpressを用いて開発した、キャンプ場の情報を投稿・共有できるレビューサイトです。ユーザー登録・ログイン機能を備え、レビュー投稿や編集、削除が可能です。
+      </p>
+
+      <ul>
+        <li><strong>フロントエンド：</strong>EJS, Bootstrap</li>
+        <li><strong>バックエンド：</strong>Node.js, Express</li>
+        <li><strong>データベース：</strong>MongoDB Atlas, Mongoose</li>
+        <li><strong>認証：</strong>Passport.js</li>
+        <li><strong>その他：</strong>Cloudinary, Mapbox</li>
+      </ul>
+
+      <p><strong>工夫した点：</strong></p>
+      <ul>
+        <li>非同期処理の整理（<code>catchAsync</code>）</li>
+        <li>Joiによるバリデーション</li>
+        <li>セッション管理</li>
+        <li>RESTful設計</li>
+      </ul>
+
+      <a href="https://github.com/junya-4742/yelpcamp" class="btn btn-primary mt-3" target="_blank">GitHubで見る</a>
+      <a href="https://yelpcamp-4oql.onrender.com/" class="btn btn-outline-secondary mt-3 ms-2" target="_blank">アプリを開く</a>
+    </div>
+  </div>
+</div>
