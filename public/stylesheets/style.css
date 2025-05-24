@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -9,4 +10,26 @@ body {
 
 main {
   flex: 1;
+}
+
+footer a {
+  text-decoration: none;
+  border: none;
+}
+
+footer a img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer a:focus,
+footer a:active {
+  outline: none;
+}
+
+footer .social-links {
+  display: flex;
+  justify-content: center;  /* 中央寄せ */
+  gap: 16px;                /* アイコン間のスペース */
+  flex-wrap: wrap;          /* スマホ時折り返し対応 */
 }
