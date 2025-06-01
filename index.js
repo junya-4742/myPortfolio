@@ -32,11 +32,17 @@ app.get("/works",(req,res) => {
 
 app.get("/yelpcamp",(req,res) => {
     res.render("portfolio/works/yelpcamp",{
-        title:"yelpcamp",
+        title:"実績-yelpcamp",
         description:"これはjunyaが作成したWEBアプリ「yelpcamp」の詳細ページです。"
     });
 });
 
+app.get("/coffeeshop",(req,res) => {
+    res.render("portfolio/works/coffeeshop",{
+        title:"実績-coffeeshop",
+        description:"これはjunyaが作成したLP「THE LITTLE CAFE」の詳細ページです。"
+    });
+});
 
 
 app.listen(3000,() => {

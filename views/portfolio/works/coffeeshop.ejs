@@ -1,0 +1,38 @@
+<% layout("layouts/boilerplate") %>
+<div class="container mt-5">
+  <div class="card shadow-sm" style="max-width: 500px; margin: auto;">
+    <!-- サムネイル画像 -->
+    <img src="images/coffeeshop_サムネイル.png" class="card-img-top" alt="coffeeshopのサムネイル">
+
+    <div class="card-body">
+      <h3 class="card-title">THE LITTLE CAFE（架空のカフェサイト）</h3>
+      <h6 class="card-subtitle mb-2 text-muted">HTML / CSS / Figma</h6>
+
+      <p class="card-text mt-3">
+        デザインカンプをもとに作成したカフェ紹介のランディングページです。シンプルな構成ながら、背景画像とテキスト・画像のバランスやレスポンシブ対応など、UIレイアウトを丁寧に整えました。
+      </p>
+
+      <ul>
+        <li><strong>フロントエンド：</strong>HTML, CSS（Flexbox）</li>
+        <li><strong>デザイン参照：</strong>Figma</li>
+        <li><strong>デプロイ：</strong>Render</li>
+        <li><strong>バージョン管理：</strong>GitHub</li>
+      </ul>
+
+      <p><strong>工夫した点：</strong></p>
+      <ul>
+        <li>flex と min-width, max-width, aspect-ratio を組み合わせて、テキスト・画像を背景に対して中央に自然に配置</li>
+        <li>デザインとズレが出やすい background-image のサイズ調整を background-size: cover と padding で調整</li>
+        <li>スマホサイズでも要素がはみ出ないよう、余白やラップの挙動を細かく制御</li>
+      </ul>
+
+      <p><strong>今後の改善予定：</strong></p>
+      <ul>
+        <li>最終的にはピクセルパーフェクトを狙っていきたい</li>
+      </ul>
+
+      <a href="https://github.com/junya-4742/coffeeshop" class="btn btn-primary mt-3" target="_blank">GitHubで見る</a>
+      <a href="https://coffeeshop-t4hz.onrender.com/" class="btn btn-outline-secondary mt-3 ms-2" target="_blank">HPへ</a>
+    </div>
+  </div>
+</div>
