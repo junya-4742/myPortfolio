@@ -44,6 +44,12 @@ app.get("/coffeeshop",(req,res) => {
     });
 });
 
+app.get("/animalhospital",(req,res) => {
+    res.render("portfolio/works/animalhospital",{
+        title:"実績-animalhospital",
+        description:"これはjunyaが作成したLP「junya動物病院」の詳細ページです。"
+    });
+});
 
 app.listen(3000,() => {
     console.log("ポート3000でリクエスト待受中…");
